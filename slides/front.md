@@ -1,10 +1,10 @@
-# Data Processing Workflows
+## Access to Public Information in Mexico
 
 <hr/>
 
-Chicago School of Data Days - Sept. 20, 2014
+Migrahack Arizona - March 20-22, 2015
 
-David Eads [@eads](http://twitter.com/eads) | NPR Visuals [@nprviz](http://twitter.com/nprviz)
+Mago Torres [@magiccia](http://twitter.com/magiccia) | Universidad Iberoamericana, Mexico City
 
 Based on an [NPR Visuals blog post](http://blog.apps.npr.org/2014/09/02/reusable-data-processing.html)
 

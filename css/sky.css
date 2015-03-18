@@ -1,26 +1,35 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
 /**
- * Black theme for reveal.js.
+ * Sky theme for reveal.js.
  *
  * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
+.reveal a {
+  line-height: 1.3em; }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #111;
-  background-color: #111; }
+  background: #add9e4;
+  background: -moz-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #f7fbfc), color-stop(100%, #add9e4));
+  background: -webkit-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
+  background: -o-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
+  background: -ms-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
+  background: radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
+  background-color: #f7fbfc; }
 
 .reveal {
   font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
+  font-size: 36px;
   font-weight: normal;
-  color: #eee; }
+  color: #333; }
 
 ::selection {
   color: #fff;
-  background: #e7ad52;
+  background: #134674;
   text-shadow: none; }
 
 .reveal .slides > section, .reveal .slides > section > section {
@@ -32,12 +41,12 @@ body {
  *********************************************/
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
   margin: 0 0 20px 0;
-  color: #eee;
-  font-family: 'Montserrat', Impact, sans-serif;
+  color: #333;
+  font-family: 'Quicksand', sans-serif;
   font-weight: normal;
   line-height: 1.2;
-  letter-spacing: -0.03em;
-  text-transform: none;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
   text-shadow: none;
   word-wrap: break-word; }
 
@@ -179,20 +188,20 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #e7ad52;
+  color: #3b759e;
   text-decoration: none;
   -webkit-transition: color 0.15s ease;
   -moz-transition: color 0.15s ease;
   transition: color 0.15s ease; }
 
 .reveal a:hover {
-  color: #f3d7ac;
+  color: #74a8cb;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #d0881d; }
+  background: #264d66; }
 
 /*********************************************
  * IMAGES
@@ -200,7 +209,7 @@ body {
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #eee;
+  border: 4px solid #333;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
 
 .reveal a img {
@@ -210,35 +219,35 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #e7ad52;
+  border-color: #3b759e;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls div.navigate-left, .reveal .controls div.navigate-left.enabled {
-  border-right-color: #e7ad52; }
+  border-right-color: #3b759e; }
 
 .reveal .controls div.navigate-right, .reveal .controls div.navigate-right.enabled {
-  border-left-color: #e7ad52; }
+  border-left-color: #3b759e; }
 
 .reveal .controls div.navigate-up, .reveal .controls div.navigate-up.enabled {
-  border-bottom-color: #e7ad52; }
+  border-bottom-color: #3b759e; }
 
 .reveal .controls div.navigate-down, .reveal .controls div.navigate-down.enabled {
-  border-top-color: #e7ad52; }
+  border-top-color: #3b759e; }
 
 .reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #f3d7ac; }
+  border-right-color: #74a8cb; }
 
 .reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #f3d7ac; }
+  border-left-color: #74a8cb; }
 
 .reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: #f3d7ac; }
+  border-bottom-color: #74a8cb; }
 
 .reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: #f3d7ac; }
+  border-top-color: #74a8cb; }
 
 /*********************************************
  * PROGRESS BAR
@@ -247,7 +256,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #e7ad52;
+  background: #3b759e;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
@@ -256,4 +265,4 @@ body {
  * SLIDE NUMBER
  *********************************************/
 .reveal .slide-number {
-  color: #e7ad52; }
+  color: #3b759e; }

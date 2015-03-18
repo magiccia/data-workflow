@@ -10,7 +10,8 @@ Tarbell project configuration
 """
 
 # Google spreadsheet key
-CONTEXT_SOURCE_FILE = "_slides.xlsx"
+# CONTEXT_SOURCE_FILE = "_slides.xlsx"
+SPREADSHEET_KEY="1tCE9JPtJS8R-ZJLTg5wRuxFu8G7zn5T16Pv1QohCGY8"
 
 # Exclude these files from publication
 EXCLUDES = ["*.md", "requirements.txt", "slides/*"]
@@ -20,14 +21,14 @@ EXCLUDES = ["*.md", "requirements.txt", "slides/*"]
 
 # S3 bucket configuration
 S3_BUCKETS = {
-    "production": "recoveredfactory.net/data-workflow",
-    "staging": "recoveredfactory.net/data-workflow-draft",
+    "production": "www.inforight.net/migrahack",
+    "staging": "www.inforight.net/migrahack",
 }
 
 # Default template variables
 DEFAULT_CONTEXT = {
     'name': 'data-workflow',
-    'title': 'Reusable data processing workflows'
+    'title': 'Access to Public Information in Mexico'
 }
 
 blueprint = Blueprint('data_workflow', __name__)
