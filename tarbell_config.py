@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import markdown as Markdown
 import os
+import codecs
 
 from flask import Blueprint
 from jinja2 import Markup
@@ -43,7 +44,7 @@ def read_file(path, absolute=False):
         path = os.path.join(os.path.dirname(__file__), path)
 
     try:
-        return open(path, 'r').read()
+        return codecs.open(path, 'r', 'utf-8').read()
     except IOError:
         return None
 

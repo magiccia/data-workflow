@@ -8,6 +8,8 @@ Mago Torres [@magiccia](http://twitter.com/magiccia) | Universidad Iberoamerican
 
 Based on an [NPR Visuals blog post](http://blog.apps.npr.org/2014/09/02/reusable-data-processing.html)
 
+ñ
+
 <hr/>
 
 Slides: [http://recoveredfactory.net/data-workflow](http://recoveredfactory.net/data-workflow)
