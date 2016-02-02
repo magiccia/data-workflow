@@ -39,7 +39,7 @@
 <div class="reveal">
   <div class="slides">
     {% for slide in slides %}
-    <section id="{{ slide.id }}"{% if slide.class %} class="{{ slide.class }}"{% endif %}{% if slide.background_url %} data-background="images/{{ slide.background_url }}"{% endif %}{% if slide.background_color %} data-background-color="{{ slide.background_color }}"{% endif %}{% if slide.background_repeat %} data-background-repeat="{{ slide.background_repeat }}"{% endif %}{% if slide.background_size %} data-background-size="{{ slide.background_size }}"{% endif %}>
+    <section id="slide-{{ slide.id }}"{% if slide.class %} class="{{ slide.class }}"{% endif %}{% if slide.background_url %} data-background="images/{{ slide.background_url }}"{% endif %}{% if slide.background_color %} data-background-color="{{ slide.background_color }}"{% endif %}{% if slide.background_repeat %} data-background-repeat="{{ slide.background_repeat }}"{% endif %}{% if slide.background_size %} data-background-size="{{ slide.background_size }}"{% endif %}>
       {{ read_file("slides/{0}.md".format(slide.id))|markdown }}
     </section>
     {% endfor %}

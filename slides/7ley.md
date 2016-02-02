@@ -1,0 +1,1 @@
+## [Ley Federal de Transparencia y Acceso a la Información Pública Gubernamental](http://www.diputados.gob.mx/LeyesBiblio/pdf/LGTAIP.pdf) (LFTAIPG)
